@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Senayon Agboyinu — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">SA<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#education" class="mobile-link">Education</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <div class="hero-tag reveal">Available for opportunities</div>
+      <h1 class="hero-name reveal">
+        <span class="line">Senayon</span>
+        <span class="line accent-line">Agboyinu</span>
+      </h1>
+      <p class="hero-sub reveal">
+        Web Developer &amp; Data Analyst — building clean, performant web experiences and transforming data into actionable insights.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num">20<span class="plus">+</span></span>
+          <span class="stat-label">WordPress Sites</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">40<span class="plus">%</span></span>
+          <span class="stat-label">Load Time Reduced</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">3<span class="plus">+</span></span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label reveal">01 — About</div>
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <div class="about-img-wrap">
+            <div class="about-initials">SM</div>
+            <div class="about-img-frame"></div>
+          </div>
+        </div>
+        <div class="about-right">
+          <h2 class="section-title reveal">Bridging <em>Code</em> &amp; <em>Data</em></h2>
+          <p class="about-text reveal">
+            I'm Senayon Agboyinu — a developer and data analyst based in Abuja, Nigeria with a dual background in Economics and Computer Science. I build responsive, high-performance websites and design data workflows that help businesses make smarter decisions.
+          </p>
+          <p class="about-text reveal">
+            From crafting custom WordPress sites for small businesses to building interactive Excel dashboards during my internship at Ededge Groups, I bring a full-stack perspective to every problem — whether it's code or data.
+          </p>
+          <div class="about-tags reveal">
+            <span class="tag">React</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">WordPress</span>
+          </div>
+          <a href="mailto:SENAYONAGBOYINU@GMAIL.COM" class="btn-outline reveal">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label reveal">02 — Skills</div>
+      <h2 class="section-title reveal">What I Work With</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Front-End Development</h3>
+          <p>Building responsive, interactive UIs with modern web standards.</p>
+          <ul class="skill-list">
+            <li>HTML5 &amp; CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>WordPress</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </div>
+          <h3>Data Analytics</h3>
+          <p>Transforming raw data into clear, actionable business insights.</p>
+          <ul class="skill-list">
+            <li>Excel &amp; Pivot Tables</li>
+            <li>SQL &amp; MySQL</li>
+            <li>Power BI / Tableau</li>
+            <li>Looker Studio</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <h3>Backend &amp; Tooling</h3>
+          <p>Server-side logic, scripting, and version control.</p>
+          <ul class="skill-list">
+            <li>Python</li>
+            <li>Golang</li>
+            <li>Git &amp; GitHub</li>
+            <li>MySQL Workbench</li>
+          </ul>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <h3>Soft Skills &amp; Extras</h3>
+          <p>Communication, testing, and SEO — the full picture.</p>
+          <ul class="skill-list">
+            <li>SEO Optimization</li>
+            <li>Software Testing</li>
+            <li>Prompt Engineering</li>
+            <li>Graphic Design</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-label reveal">03 — Experience</div>
+      <h2 class="section-title reveal">Work History</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">Aug – Nov 2025</span>
+          </div>
+          <div class="timeline-body">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Data Analytics Intern</h3>
+                <span class="timeline-company">Ededge Groups</span>
+              </div>
+              <p>Analysed business, customer, and market data across automotive, stock market, and sales domains. Cleaned and transformed unstructured datasets, built interactive dashboards, performed SQL joins and statistical analysis.</p>
+              <div class="timeline-tags">
+                <span>Excel</span><span>SQL</span><span>Data Visualization</span><span>Dashboards</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">Aug 2021 – Present</span>
+          </div>
+          <div class="timeline-body">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>WordPress Developer</h3>
+                <span class="timeline-company">Self-Employed</span>
+              </div>
+              <p>Designed and developed 20+ custom WordPress websites for small businesses, non-profits, and e-commerce clients. Applied performance optimization, SEO improvements, and responsive layouts.</p>
+              <div class="result-pills">
+                <span class="result-pill">↓ 40% load time</span>
+                <span class="result-pill">↑ 30% engagement</span>
+                <span class="result-pill">↑ 25% visual quality</span>
+              </div>
+              <div class="timeline-tags">
+                <span>WordPress</span><span>HTML/CSS</span><span>JavaScript</span><span>SEO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">May – Jun 2024</span>
+          </div>
+          <div class="timeline-body">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Front-End Development Bootcamp</h3>
+                <span class="timeline-company">Ortech Agency</span>
+              </div>
+              <p>Built multiple responsive web projects and interactive UI components. Progressed from theory to professional application with HTML5, CSS3, JavaScript, and React.</p>
+              <div class="timeline-tags">
+                <span>React</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-meta">
+            <span class="timeline-date">Nov 2025</span>
+          </div>
+          <div class="timeline-body">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Data Analytics Virtual Simulation</h3>
+                <span class="timeline-company">Deloitte</span>
+              </div>
+              <p>Completed Deloitte's data analytics simulation — cleaned, modelled, and visualised datasets using spreadsheets and data visualisation tools. Built clear visual dashboards to communicate business findings.</p>
+              <div class="timeline-tags">
+                <span>Data Modelling</span><span>Spreadsheets</span><span>Visualization</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label reveal">04 — Projects</div>
+      <h2 class="section-title reveal">Selected Work</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured reveal">
+          <div class="project-number">01</div>
+          <div class="project-body">
+            <div class="project-stack">
+              <span>Excel</span><span>Pivot Tables</span><span>Data Analysis</span>
+            </div>
+            <h3>Car Ownership &amp; Usage Dashboard</h3>
+            <p>Interactive Excel dashboard analysing how customer demographics, income, and travel habits relate to car ownership. Built with Pivot Tables, slicers, and charts to surface actionable marketing insights.</p>
+            <div class="project-results">
+              <div class="pr-item"><strong>Customer Segments</strong><span>Identified key buyer groups</span></div>
+              <div class="pr-item"><strong>Income Patterns</strong><span>Linked income to car type selection</span></div>
+            </div>
+            <div class="project-links">
+              <a href="https://tinyurl.com/COwnership" target="_blank" rel="noopener" class="proj-link">
+                View Dashboard →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number">02</div>
+          <div class="project-body">
+            <div class="project-stack">
+              <span>SQL</span><span>MySQL</span><span>Relational DBs</span>
+            </div>
+            <h3>Sales &amp; Sakila SQL Analysis</h3>
+            <p>Wrote and executed SQL queries joining multiple relational tables to examine customer rental patterns, film categories, and pricing structures. Revealed geographic demand patterns and retention opportunities.</p>
+            <div class="project-links">
+              <a href="https://tinyurl.com/SqlSales" target="_blank" rel="noopener" class="proj-link">
+                View Project →
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-number">03</div>
+          <div class="project-body">
+            <div class="project-stack">
+              <span>HTML</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+            <h3>Calculator App</h3>
+            <p>A clean, fully functional browser-based calculator. Built with HTML for structure, CSS3 for styling, and vanilla JavaScript for DOM manipulation, event handling, and arithmetic logic.</p>
+            <div class="project-links">
+              <a href="http://tulente.kesug.com" target="_blank" rel="noopener" class="proj-link">
+                Live Demo →
+              </a>
+              <a href="https://github.com/SenMich01/calculator-app.git" target="_blank" rel="noopener" class="proj-link github-link">
+                GitHub →
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="section-label reveal">05 — Education</div>
+      <h2 class="section-title reveal">Academic Background</h2>
+      <div class="edu-grid">
+
+        <div class="edu-card reveal">
+          <div class="edu-year">2024 – 2027</div>
+          <h3>BSc Economics</h3>
+          <span class="edu-school">Afe Babalola University</span>
+          <p>Microeconomics, Macroeconomics, Finance, Advanced Statistics, Mathematics for Economics, Accounting.</p>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-year">2022 – 2024</div>
+          <h3>BSc Computer Science</h3>
+          <span class="edu-school">Memorial University</span>
+          <p>Intro to Programming, Computer Science, Algebra &amp; Trigonometry, Calculus.</p>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-year">Aug 2024</div>
+          <h3>Software Testing &amp; Validation</h3>
+          <span class="edu-school">University of Leeds</span>
+          <p class="edu-grade">Grade: A — Certificate of Achievement</p>
+          <p>Static code analysis, dynamic testing techniques, boundary value analysis.</p>
+        </div>
+
+        <div class="edu-card certifications reveal">
+          <div class="edu-year">Certifications</div>
+          <h3>Professional Certifications</h3>
+          <span class="edu-school">Various Providers</span>
+          <div class="cert-list">
+            <span>Prompt Engineering</span>
+            <span>React JavaScript</span>
+            <span>Modern HTML/CSS/JS</span>
+            <span>Web3</span>
+            <span>Graphic Design</span>
+            <span>SEO</span>
+            <span>Data Analytics</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label reveal">06 — Contact</div>
+      <div class="contact-wrap">
+        <div class="contact-left reveal">
+          <h2 class="contact-title">Let's Work<br><em>Together</em></h2>
+          <p class="contact-sub">Whether you need a polished website, a data dashboard, or both — I'm open to freelance projects, internships, and full-time roles.</p>
+        </div>
+        <div class="contact-right reveal">
+          <div class="contact-links">
+            <a href="mailto:SENAYONAGBOYINU@GMAIL.COM" class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-text">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">senayonagboyinu@gmail.com</span>
+              </div>
+              <span class="contact-arrow">→</span>
+            </a>
+            <a href="tel:+2347044657278" class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18C0 .66.44.2.96.04L3.96 0a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L5.09 7.91A16 16 0 0012 20l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="contact-text">
+                <span class="contact-label">Phone (Nigeria)</span>
+                <span class="contact-value">+234 704 465 7278</span>
+              </div>
+              <span class="contact-arrow">→</span>
+            </a>
+            <a href="tel:+16478485683" class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18C0 .66.44.2.96.04L3.96 0a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L5.09 7.91A16 16 0 0012 20l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="contact-text">
+                <span class="contact-label">Phone (Canada)</span>
+                <span class="contact-value">+1 647 848 5683</span>
+              </div>
+              <span class="contact-arrow">→</span>
+            </a>
+            <a href="https://www.linkedin.com/in/senayon-agboyinu" target="_blank" rel="noopener" class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div class="contact-text">
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">Connect with me</span>
+              </div>
+              <span class="contact-arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-logo">SA<span class="dot">.</span></span>
+      <span class="footer-copy">© 2025 Senayon Agboyinu. All rights reserved.</span>
+      <span class="footer-location">📍 Abuja, Nigeria</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
